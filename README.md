@@ -1,6 +1,6 @@
 # Hackers do Bem – Labs Fundamental
 
-Documentação das atividades práticas do curso **Fundamentos do Hackers do Bem** (RNP/ESR).
+Documentação das atividades práticas do curso **Fundamental do Hackers do Bem** (RNP/ESR).
 
 ---
 
