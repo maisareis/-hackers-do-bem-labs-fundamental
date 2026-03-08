@@ -9,6 +9,40 @@ Este repositório documenta o aprendizado prático obtido nas atividades de labo
 
 ---
 
+## Módulo 1 – Fundamentos de Segurança e OSINT
+
+| Atividade | Tema |
+|-----------|------|
+| [1.1 – Integridade com diff](modulo-01/atividade-1.1-integridade-diff.md) | Comparação de arquivos de texto |
+| [1.2 – Integridade com cmp](modulo-01/atividade-1.2-integridade-cmp.md) | Comparação de arquivos binários |
+| [1.3 – Hash MD5](modulo-01/atividade-1.3-hash-md5.md) | Verificação de integridade com hash |
+| [1.4 – ROT13 e Cifra de César](modulo-01/atividade-1.4-cifragem-rot13-cesar.md) | Criptografia clássica |
+| [1.5 – Taskwarrior](modulo-01/atividade-1.5-taskwarrior.md) | Gerenciamento de tarefas via CLI |
+| [1.6 – Phishing com ShellPhish](modulo-01/atividade-1.6-phishing-shellphish.md) | Simulação de ataque de phishing |
+| [1.7 – WHOIS](modulo-01/atividade-1.7-whois.md) | Reconhecimento de domínios |
+| [1.8 – Maltego](modulo-01/atividade-1.8-maltego.md) | Configuração da ferramenta OSINT |
+| [1.9 – OSINT com Maltego](modulo-01/atividade-1.9-osint-maltego.md) | Reconhecimento passivo |
+| [1.10 – Adversarial Machine Learning](modulo-01/atividade-1.10-adversarial-ml.md) | Ataques contra IA |
+
+---
+
+## Módulo 2 – Malware, Criptografia e Anonimato
+
+| Atividade | Tema |
+|-----------|------|
+| [2.1 – Trojan com Social-Engineer Toolkit](modulo-02/atividade-2.1-trojan-set.md) | Criação de RAT com SET e Metasploit |
+| [2.2 – Keylogger XSPY](modulo-02/atividade-2.2-keylogger-xspy.md) | Captura de teclas no Kali Linux |
+| [2.3 – Ransomware WannaCry](modulo-02/atividade-2.3-ransomware.md) | Exploração educacional de ransomwares |
+| [2.4 – Payloads com Brutal](modulo-02/atividade-2.4-brutal-payloads.md) | Múltiplos payloads maliciosos |
+| [2.5 – Windows Defender vs Keylogger](modulo-02/atividade-2.5-windows-defender-keylogger.md) | Detecção de malware no Windows |
+| [2.6 – Criptografia com Ccrypt](modulo-02/atividade-2.6-ccrypt.md) | Cifração e decifração de arquivos |
+| [2.7 – Análise de Logs com Logcheck](modulo-02/atividade-2.7-logcheck.md) | Controle detectivo via logs |
+| [2.8 – Navegador Tor](modulo-02/atividade-2.8-tor-browser.md) | Anonimato e mascaramento de IP |
+| [2.9 – DeepWeb com Tor](modulo-02/atividade-2.9-deepweb-tor.md) | Navegação em sites .onion |
+| [2.10 – Políticas de Segurança Windows](modulo-02/atividade-2.10-politicas-seguranca-windows.md) | secpol e controles gerenciais |
+
+---
+
 ## Módulo 6 – Programação e Segurança Web
 
 | Atividade | Tema |
