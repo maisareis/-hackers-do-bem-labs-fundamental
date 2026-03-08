@@ -43,6 +43,57 @@ Este repositório documenta o aprendizado prático obtido nas atividades de labo
 
 ---
 
+## Módulo 3 – Ferramentas de Segurança e Reconhecimento de Rede
+
+| Atividade | Tema |
+|-----------|------|
+| [3.1 – Exploit Database](modulo-03/atividade-3.1-exploitdb.md) | Pesquisa de exploits com searchsploit |
+| [3.2 – Varreduras com Nmap](modulo-03/atividade-3.2-nmap.md) | Descoberta de hosts e portas |
+| [3.3 – Burp Suite](modulo-03/atividade-3.3-burpsuite.md) | Interceptação de tráfego HTTP/HTTPS |
+| [3.4 – Netcat: Escuta de Requisições](modulo-03/atividade-3.4-netcat-escuta.md) | Captura de cabeçalhos HTTP por porta |
+| [3.5 – Netcat: Redirecionamento de Portas](modulo-03/atividade-3.5-netcat-redirect.md) | Port forwarding com Ncat |
+| [3.6 – Diagnóstico de Rede](modulo-03/atividade-3.6-diagnostico-rede.md) | ifconfig, ping, traceroute e netstat |
+| [3.7 – Honeypot com PentBox](modulo-03/atividade-3.7-honeypot-pentbox.md) | Detecção de intrusão simulada |
+| [3.8 – Enumeração DNS com host](modulo-03/atividade-3.8-dns-host.md) | Registros A, AAAA, MX e NS |
+| [3.9 – Enumeração DNS com nslookup](modulo-03/atividade-3.9-dns-nslookup.md) | Registros NS, MX e TXT |
+| [3.10 – Enumeração DNS com dig](modulo-03/atividade-3.10-dns-dig.md) | Análise completa de respostas DNS |
+
+---
+
+## Módulo 4 – Controle de Acesso, Autenticação e Gerenciamento de Credenciais
+
+| Atividade | Tema | Ferramenta |
+|-----------|------|------------|
+| [4.1 – Controle de Autenticação](modulo-04/atividade-4.1-controle-autenticacao.md) | passwd e arquivos de usuário | passwd / /etc/passwd |
+| [4.2 – SELinux](modulo-04/atividade-4.2-selinux.md) | Controle de acesso obrigatório (MAC) | selinux-activate / sestatus |
+| [4.3 – KeePassXC](modulo-04/atividade-4.3-keepassxc.md) | Cofre de senhas criptografado | KeePassXC |
+| [4.4 – John the Ripper](modulo-04/atividade-4.4-john-the-ripper.md) | Ataque de dicionário off-line | John the Ripper |
+| [4.5 – Credential Manager](modulo-04/atividade-4.5-credential-manager-windows.md) | Gerenciamento de credenciais Windows | Credential Manager |
+| [4.6 – FreeRADIUS](modulo-04/atividade-4.6-freeradius.md) | Servidor de autenticação RADIUS | FreeRADIUS |
+| [4.7 – Google Authenticator](modulo-04/atividade-4.7-google-authenticator.md) | TOTP com smartphone | Google Authenticator |
+| [4.8 – Authenticator Firefox](modulo-04/atividade-4.8-authenticator-firefox.md) | TOTP no navegador | Plugin Authenticator |
+| [4.9 – TPM e USB](modulo-04/atividade-4.9-tpm-usb.md) | Verificação de hardware de segurança | journalctl / usbview |
+| [4.10 – OTPClient](modulo-04/atividade-4.10-otpclient.md) | Gerenciamento de tokens TOTP | OTPClient |
+
+---
+
+## Módulo 5 – Active Directory, Controle de Acesso e Políticas de Senha
+
+| Atividade | Tema |
+|-----------|------|
+| [5.1 – Active Directory no Windows Server 2022](modulo-05/atividade-5.1-active-directory.md) | Instalação do AD DS e DNS Server |
+| [5.2 – Domain Controller do Active Directory](modulo-05/atividade-5.2-domain-controller.md) | Promoção a DC e configuração DNS |
+| [5.3 – Usuário no Domínio AD](modulo-05/atividade-5.3-usuario-dominio-ad.md) | Criação de usuário, OU e GPO de acesso RDP |
+| [5.4 – Cliente no Domínio AD](modulo-05/atividade-5.4-cliente-dominio-ad.md) | Ingresso de cliente Windows no domínio |
+| [5.5 – Política de Senhas no GPO](modulo-05/atividade-5.5-gpo-politica-senhas.md) | Complexidade, tamanho mínimo e histórico |
+| [5.6 – DAC no Windows Server 2022](modulo-05/atividade-5.6-dac-windows.md) | Permissões NTFS com Allow e Deny |
+| [5.7 – Organizational Unit no AD](modulo-05/atividade-5.7-organizational-unit.md) | Criação de OU e usuário com Common Name |
+| [5.8 – DAC no Kali Linux](modulo-05/atividade-5.8-dac-kali.md) | Permissões POSIX com chmod |
+| [5.9 – RBAC no Kali Linux](modulo-05/atividade-5.9-rbac-kali.md) | Grupos e controle de acesso por função |
+| [5.10 – Rotação de Senha no Kali Linux](modulo-05/atividade-5.10-rotacao-senha.md) | Políticas de validade com /etc/login.defs |
+
+---
+
 ## Módulo 6 – Programação e Segurança Web
 
 | Atividade | Tema |
