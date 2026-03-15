@@ -128,5 +128,22 @@ Este repositório documenta o aprendizado prático obtido nas atividades de labo
 
 ---
 
+## Módulo 8 – Esteganografia, Ofuscação e Criptografia
+
+| Atividade | Tema |
+|-----------|------|
+| [8.1 – Esteganografia](modulo-08/atividade-8.1-esteganografia.md) | Ocultamento de texto em imagem com Steghide |
+| [8.2 – Ofuscação de Código Python](modulo-08/atividade-8.2-ofuscacao-python.md) | Bytecode Python com py_compile |
+| [8.3 – Criptografia AES-256-CTR](modulo-08/atividade-8.3-aes256.md) | Cifragem simétrica com OpenSSL |
+| [8.4 – Criptografia 3DES-CFB](modulo-08/atividade-8.4-3des.md) | Cifragem simétrica legada com OpenSSL |
+| [8.5 – Criptografia Blowfish-CFB](modulo-08/atividade-8.5-blowfish.md) | Cifragem simétrica legada com OpenSSL |
+| [8.6 – Hash MD5, RIPEMD-160 e Blake2](modulo-08/atividade-8.6-hash-md5-ripemd-blake2.md) | Funções hash com md5sum, openssl e b2sum |
+| [8.7 – Hash SHA-1, SHA-2 e SHA-3](modulo-08/atividade-8.7-hash-sha.md) | Família SHA com sha1sum, sha512sum e sha3sum |
+| [8.8 – RSA-2048 Confidencialidade](modulo-08/atividade-8.8-rsa2048-confidencialidade.md) | Criptografia assimétrica com OpenSSL |
+| [8.9 – ECC-256 + AES-256](modulo-08/atividade-8.9-ecc256.md) | Esquema híbrido ECC + AES com OpenSSL |
+| [8.10 – Assinatura Digital RSA-2048](modulo-08/atividade-8.10-assinatura-digital-rsa2048.md) | Assinatura e verificação com OpenSSL |
+
+---
+
 ## Aviso Legal
 > As atividades de segurança documentadas aqui foram realizadas exclusivamente em ambientes controlados e autorizados para fins educacionais. O uso de qualquer técnica descrita em sistemas sem autorização prévia é ilegal.
