@@ -145,5 +145,39 @@ Este repositório documenta o aprendizado prático obtido nas atividades de labo
 
 ---
 
+## Módulo 9 – Infraestrutura de Chaves Públicas e Blockchain
+
+| Atividade | Tema |
+|-----------|------|
+| [9.1 – Autoridade Certificadora](modulo-09/atividade-9.1-autoridade-certificadora.md) | Instalação do AD CS e configuração da Root CA |
+| [9.2 – Emissão de Certificados](modulo-09/atividade-9.2-emissao-certificados.md) | Templates, GPO de auto-inscrição e gpupdate |
+| [9.3 – Conhecendo o Certificado Digital](modulo-09/atividade-9.3-conhecendo-certificado.md) | certmgr, campos X.509 e cadeia de certificação |
+| [9.4 – Certificados Web no Windows](modulo-09/atividade-9.4-certificados-web.md) | Inspeção e exportação de certificado via Edge |
+| [9.5 – Certificado Autoassinado](modulo-09/atividade-9.5-certificado-autoassinado.md) | Geração de chave privada, CSR e certificado com OpenSSL |
+| [9.6 – Revogação de Certificado](modulo-09/atividade-9.6-revogacao-certificado.md) | Revogação com Certificate Hold no certsrv |
+| [9.7 – Cancelar Revogação](modulo-09/atividade-9.7-cancelar-revogacao.md) | Unrevoke de certificado suspenso |
+| [9.8 – OCSP no Kali Linux](modulo-09/atividade-9.8-ocsp-certificados-web.md) | Verificação de certificados web via openssl s_client |
+| [9.9 – Carteira Bitcoin](modulo-09/atividade-9.9-carteira-bitcoin.md) | Criação de carteira HD com Electrum e seed phrase |
+| [9.10 – Recuperar Carteira e Receber Bitcoin](modulo-09/atividade-9.10-recuperar-carteira-bitcoin.md) | Recuperação por seed e geração de QR Code |
+
+---
+
+## Módulo 10 – Segurança no Host
+
+| Atividade | Tema |
+|-----------|------|
+| [10.1 – Memory Integrity e Manutenção](modulo-10/atividade-10.1-memory-integrity-manutencao.md) | Core Isolation, Memory Integrity e Security and Maintenance |
+| [10.2 – Controle de Aplicativos e Navegadores](modulo-10/atividade-10.2-controle-aplicativos-navegadores.md) | Reputation-based Protection e Exploit Protection |
+| [10.3 – Atualizações no Windows Server](modulo-10/atividade-10.3-atualizacoes-windows.md) | Windows Update, opções avançadas e histórico |
+| [10.4 – ClamAV no Kali Linux](modulo-10/atividade-10.4-clamav.md) | Escaneamento de malware com freshclam e clamscan |
+| [10.5 – Suricata HIDS](modulo-10/atividade-10.5-suricata-hids.md) | IDS com regras Emerging Threats e logs de eventos |
+| [10.6 – VirtualBox Hypervisor Tipo 2](modulo-10/atividade-10.6-virtualbox-hypervisor.md) | Exploração de preferências e configurações do VirtualBox |
+| [10.7 – Criando VM no VirtualBox](modulo-10/atividade-10.7-criando-vm-virtualbox.md) | Criação de VM com Debian netinst |
+| [10.8 – UEFI/BIOS por Simulação](modulo-10/atividade-10.8-uefi-bios-simulacao.md) | Exploração de BIOS Lenovo via simulador online |
+| [10.9 – Full Disk Encryption](modulo-10/atividade-10.9-full-disk-encryption.md) | FDE com LUKS e cryptsetup no Kali Linux |
+| [10.10 – Docker no Kali Linux](modulo-10/atividade-10.10-docker-ubuntu.md) | Containers Ubuntu com Docker: pull, run, stats e prune |
+
+---
+
 ## Aviso Legal
 > As atividades de segurança documentadas aqui foram realizadas exclusivamente em ambientes controlados e autorizados para fins educacionais. O uso de qualquer técnica descrita em sistemas sem autorização prévia é ilegal.
