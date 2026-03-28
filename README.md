@@ -9,7 +9,7 @@ Este repositório documenta o aprendizado prático obtido nas atividades de labo
 
 ---
 
-## Módulo 1 – Fundamentos de Segurança e OSINT
+## Módulo 1 – Princípios de Segurança e Engenharia Social
 
 | Atividade | Tema |
 |-----------|------|
@@ -26,7 +26,7 @@ Este repositório documenta o aprendizado prático obtido nas atividades de labo
 
 ---
 
-## Módulo 2 – Malware, Criptografia e Anonimato
+## Módulo 2 – Ameaças, Malwares e Controles
 
 | Atividade | Tema |
 |-----------|------|
@@ -43,7 +43,7 @@ Este repositório documenta o aprendizado prático obtido nas atividades de labo
 
 ---
 
-## Módulo 3 – Ferramentas de Segurança e Reconhecimento de Rede
+## Módulo 3 – Técnicas Utilizadas na Identificação de Ameaças
 
 | Atividade | Tema |
 |-----------|------|
@@ -60,7 +60,7 @@ Este repositório documenta o aprendizado prático obtido nas atividades de labo
 
 ---
 
-## Módulo 4 – Controle de Acesso, Autenticação e Gerenciamento de Credenciais
+## Módulo 4 – Controles de Acesso
 
 | Atividade | Tema | Ferramenta |
 |-----------|------|------------|
@@ -77,7 +77,7 @@ Este repositório documenta o aprendizado prático obtido nas atividades de labo
 
 ---
 
-## Módulo 5 – Active Directory, Controle de Acesso e Políticas de Senha
+## Módulo 5 – Gerenciamento de Identidades e Contas
 
 | Atividade | Tema |
 |-----------|------|
@@ -94,7 +94,7 @@ Este repositório documenta o aprendizado prático obtido nas atividades de labo
 
 ---
 
-## Módulo 6 – Programação e Segurança Web
+## Módulo 6 – Proteção Web e Desenvolvimento Seguro
 
 | Atividade | Tema |
 |-----------|------|
@@ -111,7 +111,7 @@ Este repositório documenta o aprendizado prático obtido nas atividades de labo
 
 ---
 
-## Módulo 7 – Armazenamento, Backup e Sanitização
+## Módulo 7 – Redundância, Backup, Segurança Física e Destruição de Dados
 
 | Atividade | Tema |
 |-----------|------|
@@ -128,7 +128,7 @@ Este repositório documenta o aprendizado prático obtido nas atividades de labo
 
 ---
 
-## Módulo 8 – Esteganografia, Ofuscação e Criptografia
+## Módulo 8 – Conceitos de Criptografia
 
 | Atividade | Tema |
 |-----------|------|
@@ -176,6 +176,40 @@ Este repositório documenta o aprendizado prático obtido nas atividades de labo
 | [10.8 – UEFI/BIOS por Simulação](modulo-10/atividade-10.8-uefi-bios-simulacao.md) | Exploração de BIOS Lenovo via simulador online |
 | [10.9 – Full Disk Encryption](modulo-10/atividade-10.9-full-disk-encryption.md) | FDE com LUKS e cryptsetup no Kali Linux |
 | [10.10 – Docker no Kali Linux](modulo-10/atividade-10.10-docker-ubuntu.md) | Containers Ubuntu com Docker: pull, run, stats e prune |
+
+---
+
+## Módulo 11 – Rede Segura e Equipamentos de Segurança
+
+| Atividade | Tema |
+|-----------|------|
+| [11.1 – Tabela ARP](modulo-11/atividade-11.1-tabela-arp.md) | Exploração e limpeza da tabela ARP no Kali Linux |
+| [11.2 – Alias de Interface de Rede](modulo-11/atividade-11.2-alias-interface-rede.md) | Criação de IPs secundários em eth0 e acesso SSH |
+| [11.3 – MAC Cloning](modulo-11/atividade-11.3-mac-cloning.md) | Clonagem e restauração de endereço MAC com ip link |
+| [11.4 – QoS no Kali Linux](modulo-11/atividade-11.4-qos-kali.md) | Priorização de tráfego e limitação de banda com tc |
+| [11.5 – QoS no Windows Server](modulo-11/atividade-11.5-qos-windows.md) | Política de throttle de upload via Group Policy Editor |
+| [11.6 – ACL no Firewall do Windows](modulo-11/atividade-11.6-acl-firewall-windows.md) | Inbound/Outbound Rules e Security Associations no Defender Firewall |
+| [11.7 – Bloqueio de Sites com iptables](modulo-11/atividade-11.7-bloqueio-sites-iptables.md) | Bloqueio e desbloqueio de domínio com DROP no iptables |
+| [11.8 – Redirecionamento DNS com iptables](modulo-11/atividade-11.8-redirecionamento-dns-iptables.md) | DNAT de porta 53 para loopback causando DoS de DNS |
+| [11.9 – OpenVPN](modulo-11/atividade-11.9-openvpn.md) | Conexão VPN com OpenVPN e verificação de IP de saída |
+| [11.10 – Bloqueio ICMP com iptables](modulo-11/atividade-11.10-bloqueio-icmp-iptables.md) | Bloqueio de echo-request ICMP entre Windows e Kali |
+
+---
+
+## Módulo 12 – Resposta a Incidentes e Protocolos Seguros
+
+| Atividade | Tema |
+|-----------|------|
+| [12.1 – Logs no Windows Server](modulo-12/atividade-12.1-logs-windows.md) | Event Viewer: tipos de log e filtros de pesquisa |
+| [12.2 – NTP no Windows Server](modulo-12/atividade-12.2-ntp-windows.md) | Sincronização de tempo com time.google.com via gpedit |
+| [12.3 – Logs no Kali Linux](modulo-12/atividade-12.3-logs-kali.md) | /var/log, journalctl, grep e gnome-logs |
+| [12.4 – Wireshark](modulo-12/atividade-12.4-wireshark.md) | Captura de tráfego HTTPS e análise de fluxo TCP |
+| [12.5 – tcpdump e Wireshark TLS](modulo-12/atividade-12.5-tcpdump-wireshark-tls.md) | Captura com tcpdump e análise de versão TLS no Wireshark |
+| [12.6 – Leitura de Metadados](modulo-12/atividade-12.6-leitura-metadados.md) | Extração de metadados EXIF e PDF com Exiftool |
+| [12.7 – Apagar Metadados](modulo-12/atividade-12.7-apagar-metadados.md) | Remoção de metadados com exiftool -all= |
+| [12.8 – Escrever Metadados](modulo-12/atividade-12.8-escrita-metadados.md) | Inserção de autor, direitos e data fictícia com Exiftool |
+| [12.9 – The Sleuth Kit](modulo-12/atividade-12.9-sleuth-kit.md) | Listagem forense de inodes com fls e ils |
+| [12.10 – Aquisição de Imagem de Disco](modulo-12/atividade-12.10-aquisicao-imagem-disco.md) | Cópia bit a bit com dd e análise com stat |
 
 ---
 
